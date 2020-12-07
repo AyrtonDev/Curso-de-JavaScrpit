@@ -1,0 +1,64 @@
+@media (min-width: 600px) {
+    body {
+        background: rgb(70, 142, 236);
+        font: normal 15pt Arial;
+    }
+
+    header {
+        color: white;
+        text-align: center;
+    }
+
+    section {
+        background: white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+    }
+
+    #flista {
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    footer {
+        color: white;
+        text-align: center;
+        font-style: italic;
+    }
+}
+
+@media (max-width: 599px) {
+
+    body {
+        background: rgb(70, 142, 236);
+        font: normal 15pt Arial;
+    }
+
+    header {
+        color: white;
+        text-align: center;
+    }
+
+    section {
+        padding: 7px;
+        width: 300px;
+        background: white;
+        border-radius: 10px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+    }
+
+    #flista {
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    footer {
+        color: white;
+        text-align: center;
+        font-style: italic;
+    }
+}
